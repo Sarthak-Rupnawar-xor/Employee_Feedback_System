@@ -1,0 +1,41 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+{% block title %}Employee Dashboard{% endblock %}
+
+{% block content %}
+<div class="text-center mb-4">
+  <h2>Welcome, {{ request.user.username|title }} 👋</h2>
+  <p class="text-muted">Your personal feedback space</p>
+</div>
+
+<div class="row text-center">
+  <!-- Total Feedbacks -->
+  <div class="col-md-4 mb-3">
+    <div class="card p-3 border-0 shadow-sm">
+      <h4 class="text-primary">{{ total_feedbacks }}</h4>
+      <p class="text-muted mb-1">Total Feedbacks</p>
+    </div>
+  </div>
+
+  <!-- Active Feedbacks -->
+  <div class="col-md-4 mb-3">
+    <div class="card p-3 border-0 shadow-sm">
+      <h4 class="text-success">{{ active_feedbacks }}</h4>
+      <p class="text-muted mb-1">Active Feedbacks</p>
+    </div>
+  </div>
+
+  <!-- Deleted Feedbacks -->
+  <div class="col-md-4 mb-3">
+    <div class="card p-3 border-0 shadow-sm">
+      <h4 class="text-danger">{{ deleted_feedbacks }}</h4>
+      <p class="text-muted mb-1">Deleted Feedbacks</p>
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-4">
+  <a href="{% url 'add_feedback' %}" class="btn btn-primary me-2">Add New Feedback</a>
+  <a href="{% url 'feedback_list' %}" class="btn btn-outline-secondary">View My Feedback</a>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "accounts/base.html" %}
+{% block content %}
+
+<div class="container mt-4">
+    <div class="card shadow p-4">
+
+        <h3 class="mb-3">My Profile</h3>
+        <hr>
+
+        <p><strong>Username:</strong> {{ profile.user.username }}</p>
+        <p><strong>Email:</strong> {{ profile.user.email }}</p>
+        <p><strong>First Name:</strong> {{ profile.user.first_name }}</p>
+        <p><strong>Last Name:</strong> {{ profile.user.last_name }}</p>
+        
+        <p><strong>Designation:</strong> {{ profile.designation }}</p>
+        <p><strong>Employee ID:</strong> {{ profile.employee_id }}</p>
+        <p><strong>Contact No:</strong> {{ profile.contact_no }}</p>
+
+        <hr>
+
+        <a href="{% url 'edit_profile' %}" class="btn btn-primary">Edit Profile</a>
+        <a href="{% url 'employee_dashboard' %}" class="btn btn-secondary">Back</a>
+
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,905 @@
+ERROR django.server: "POST /admin/logout/ HTTP/1.1" 500 86855 [2025-11-04 22:26:53,269]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-04 22:27:23,293]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:27:24,916]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-04 22:27:28,534]
+INFO django.server: "GET /admin/ HTTP/1.1" 302 0 [2025-11-04 22:27:28,544]
+INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177 [2025-11-04 22:27:28,666]
+INFO accounts: User sarthak.rupnawar logged in at 04-11-2025 16:57:44 [2025-11-04 22:27:44,860]
+INFO django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 [2025-11-04 22:27:44,873]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-04 22:27:44,937]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 54595 [2025-11-04 22:27:47,185]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-04 22:27:47,241]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-04 22:30:15,358]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:30:16,747]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-04 22:30:21,470]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:30:22,898]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-04 22:30:28,699]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:30:30,044]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-04 22:30:34,831]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:30:35,836]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-04 22:30:43,618]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:30:44,896]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-04 22:31:38,252]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:31:39,879]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\signals.py changed, reloading. [2025-11-04 22:32:36,512]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:32:37,866]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 54595 [2025-11-04 22:32:47,471]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-04 22:32:47,526]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-04 22:32:53,043]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-04 22:32:53,060]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-04 22:33:04,591]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-04 22:33:04,613]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-04 22:33:04,681]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 55497 [2025-11-04 22:33:07,474]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-04 22:33:07,533]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-04 22:34:08,549]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:34:09,861]
+INFO django.server: "GET /admin/activity_log/activity/?o=4 HTTP/1.1" 200 58001 [2025-11-04 22:34:39,220]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-04 22:34:39,291]
+INFO django.server: "GET /admin/activity_log/activity/?o=-4 HTTP/1.1" 200 58104 [2025-11-04 22:34:42,741]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-04 22:34:42,798]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\signals.py changed, reloading. [2025-11-04 22:36:08,849]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-04 22:36:10,368]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-05 17:29:14,481]
+INFO django.server: "GET / HTTP/1.1" 200 2135 [2025-11-05 17:29:17,473]
+INFO django.server: "GET /static/accounts/css/style.css HTTP/1.1" 200 848 [2025-11-05 17:29:18,045]
+WARNING django.request: Not Found: /favicon.ico [2025-11-05 17:29:18,156]
+WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 5766 [2025-11-05 17:29:18,157]
+INFO accounts: User sarthak.rupnawar logged out at 05-11-2025 11:59:21 [2025-11-05 17:29:21,256]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-05 17:29:21,268]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-05 17:29:21,277]
+INFO django.server: "GET /register/ HTTP/1.1" 200 2543 [2025-11-05 17:31:00,325]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-05 17:31:03,258]
+WARNING accounts: Failed login attempts for username: piyush27 [2025-11-05 17:52:51,210]
+INFO django.server: "POST / HTTP/1.1" 200 2020 [2025-11-05 17:52:51,212]
+WARNING accounts: Failed login attempts for username: piyush27 [2025-11-05 17:52:59,646]
+INFO django.server: "POST / HTTP/1.1" 200 2020 [2025-11-05 17:52:59,648]
+INFO accounts: User Prasanna logged in at 05-11-2025 12:23:16 [2025-11-05 17:53:16,646]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-05 17:53:16,655]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-05 17:53:16,674]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-05 17:53:16,707]
+INFO django.server: "GET /add/ HTTP/1.1" 200 2268 [2025-11-05 17:53:41,149]
+INFO feedback: Signal: Feedback created by Prasanna (ID: 16) [2025-11-05 17:53:56,449]
+INFO feedback: feedback submitted by Prasanna [2025-11-05 17:53:56,450]
+INFO django.server: "POST /add/ HTTP/1.1" 302 0 [2025-11-05 17:53:56,454]
+INFO django.server: "GET /list/ HTTP/1.1" 200 4107 [2025-11-05 17:53:56,580]
+INFO django.server: "GET /edit-own/16/ HTTP/1.1" 200 2249 [2025-11-05 17:54:16,541]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3857 [2025-11-05 17:54:22,171]
+INFO feedback: Signal: Feedback updated by Prasanna (ID: 16) [2025-11-05 17:54:31,443]
+INFO django.server: "POST /delete-own/16/ HTTP/1.1" 302 0 [2025-11-05 17:54:31,445]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3533 [2025-11-05 17:54:31,482]
+INFO accounts: User Prasanna logged out at 05-11-2025 12:25:06 [2025-11-05 17:55:06,960]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-05 17:55:06,970]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-05 17:55:06,993]
+INFO accounts: User sarthak22 logged in at 05-11-2025 12:25:20 [2025-11-05 17:55:20,866]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-05 17:55:20,873]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-05 17:55:20,889]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 200 7782 [2025-11-05 17:55:20,918]
+INFO accounts: User sarthak22 logged out at 05-11-2025 12:25:51 [2025-11-05 17:55:51,524]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-05 17:55:51,533]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-05 17:55:51,542]
+WARNING accounts: Failed login attempts for username: sarthak.rupnawar [2025-11-05 17:56:03,461]
+INFO django.server: "POST / HTTP/1.1" 200 2028 [2025-11-05 17:56:03,463]
+INFO accounts: User sarthak.rupnawar logged in at 05-11-2025 12:26:12 [2025-11-05 17:56:12,233]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-05 17:56:12,242]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-05 17:56:12,261]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-05 17:56:12,330]
+INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 22120 [2025-11-05 17:56:12,364]
+INFO django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808 [2025-11-05 17:56:12,369]
+INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565 [2025-11-05 17:56:12,385]
+INFO django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441 [2025-11-05 17:56:12,387]
+INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810 [2025-11-05 17:56:12,388]
+INFO django.server: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653 [2025-11-05 17:56:12,401]
+INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063 [2025-11-05 17:56:12,426]
+INFO django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331 [2025-11-05 17:56:12,452]
+INFO django.server: "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392 [2025-11-05 17:56:12,463]
+INFO django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380 [2025-11-05 17:56:12,466]
+INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 17736 [2025-11-05 17:56:20,039]
+INFO django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878 [2025-11-05 17:56:20,085]
+INFO django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347 [2025-11-05 17:56:20,106]
+INFO django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 6208 [2025-11-05 17:56:20,112]
+INFO django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777 [2025-11-05 17:56:20,128]
+INFO django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 8076 [2025-11-05 17:56:20,130]
+INFO django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314 [2025-11-05 17:56:20,135]
+INFO django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887 [2025-11-05 17:56:20,136]
+INFO django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531 [2025-11-05 17:56:20,150]
+INFO django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458 [2025-11-05 17:56:20,184]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-05 17:56:20,190]
+INFO django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560 [2025-11-05 17:56:20,194]
+INFO django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171 [2025-11-05 17:56:20,214]
+INFO django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436 [2025-11-05 17:56:20,267]
+INFO django.server: "GET /static/admin/js/filters.js HTTP/1.1" 200 978 [2025-11-05 17:56:20,300]
+INFO django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331 [2025-11-05 17:56:20,305]
+INFO django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581 [2025-11-05 17:56:20,307]
+INFO django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097 [2025-11-05 17:56:20,308]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-05 17:56:27,639]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-05 17:56:27,716]
+INFO django.server: "GET /admin/accounts/userprofile/2/change/ HTTP/1.1" 200 16026 [2025-11-05 17:56:40,000]
+INFO django.server: "GET /static/admin/css/forms.css HTTP/1.1" 200 8525 [2025-11-05 17:56:40,031]
+INFO django.server: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586 [2025-11-05 17:56:40,057]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-05 17:56:40,059]
+INFO django.server: "GET /static/admin/css/widgets.css HTTP/1.1" 200 11973 [2025-11-05 17:56:40,070]
+INFO django.server: "GET /static/admin/js/change_form.js HTTP/1.1" 200 606 [2025-11-05 17:56:40,085]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-05 17:57:08,774]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-05 17:57:08,841]
+INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 17736 [2025-11-05 17:57:33,573]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-05 17:57:33,676]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-05 17:57:45,301]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-05 17:57:45,382]
+INFO django.server: "GET /admin/feedback/feedback/ HTTP/1.1" 200 20107 [2025-11-05 17:58:06,913]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-05 17:58:06,981]
+INFO accounts: User sarthak.rupnawar logged out at 05-11-2025 12:28:58 [2025-11-05 17:58:58,273]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-05 17:58:58,280]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-05 17:58:58,296]
+INFO accounts: User sarthak22 logged in at 05-11-2025 12:29:08 [2025-11-05 17:59:08,532]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-05 17:59:08,545]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-05 17:59:08,586]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 200 7782 [2025-11-05 17:59:08,609]
+INFO accounts: User sarthak22 logged out at 05-11-2025 12:29:36 [2025-11-05 17:59:36,028]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-05 17:59:36,048]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-05 17:59:36,075]
+INFO accounts: User Prasanna logged in at 05-11-2025 12:29:46 [2025-11-05 17:59:46,484]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-05 17:59:46,490]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-05 17:59:46,510]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-05 17:59:46,526]
+ERROR django.request: Internal Server Error: /dashboard/admin/ [2025-11-05 18:00:01,248]
+Traceback (most recent call last):
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Training\Employee_Feedback_System\accounts\views.py", line 63, in admin_dashboard
+    profile= req.user.userprofile
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\utils\functional.py", line 253, in inner
+    return func(_wrapped, *args)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 534, in __get__
+    raise self.RelatedObjectDoesNotExist(
+    ...<2 lines>...
+    )
+django.contrib.auth.models.User.userprofile.RelatedObjectDoesNotExist: User has no userprofile.
+ERROR django.server: "GET /dashboard/admin/ HTTP/1.1" 500 83806 [2025-11-05 18:00:01,257]
+INFO accounts: User Prasanna logged out at 05-11-2025 12:31:50 [2025-11-05 18:01:50,003]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-05 18:01:50,019]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-05 18:01:50,035]
+INFO accounts: User sarthak.rupnawar logged in at 05-11-2025 12:31:59 [2025-11-05 18:01:59,459]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-05 18:01:59,465]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-05 18:01:59,485]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-05 18:01:59,511]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59414 [2025-11-05 18:02:04,748]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-05 18:02:04,811]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 15:46:59,740]
+INFO django.server: "GET / HTTP/1.1" 200 2135 [2025-11-06 15:47:03,049]
+INFO django.server: "GET /static/accounts/css/style.css HTTP/1.1" 304 0 [2025-11-06 15:47:03,439]
+WARNING django.request: Not Found: /favicon.ico [2025-11-06 15:47:03,656]
+WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 5766 [2025-11-06 15:47:03,658]
+INFO accounts: User sarthak.rupnawar logged out at 06-11-2025 10:17:07 [2025-11-06 15:47:07,303]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-06 15:47:07,320]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-06 15:47:07,339]
+INFO accounts: User sarthak.rupnawar logged in at 06-11-2025 10:17:18 [2025-11-06 15:47:18,003]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-06 15:47:18,017]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-06 15:47:18,050]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-06 15:47:18,211]
+INFO django.server: "GET /add/ HTTP/1.1" 200 2268 [2025-11-06 15:47:51,959]
+INFO django.server: "GET /list/ HTTP/1.1" 200 1576 [2025-11-06 15:48:20,152]
+INFO accounts: User sarthak.rupnawar logged out at 06-11-2025 10:18:25 [2025-11-06 15:48:25,673]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-06 15:48:25,701]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-06 15:48:25,741]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 15:51:11,910]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 15:51:13,690]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 15:51:16,114]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 15:51:17,725]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 16:12:06,550]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 16:12:07,920]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 16:12:11,411]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 16:12:12,702]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 16:12:15,068]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 16:12:16,275]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 16:12:25,215]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 16:12:26,511]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 16:12:30,891]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 16:12:32,084]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 16:12:50,176]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 16:12:51,486]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\feedback\views.py changed, reloading. [2025-11-06 16:12:52,845]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-06 16:12:54,085]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-07 10:25:07,375]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-07 10:25:13,588]
+INFO django.server: "GET /static/accounts/css/style.css HTTP/1.1" 200 848 [2025-11-07 10:25:14,081]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\Employee_Feedback_System\settings.py changed, reloading. [2025-11-07 11:35:00,876]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-07 11:35:02,183]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\Employee_Feedback_System\settings.py changed, reloading. [2025-11-07 11:35:07,988]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-07 11:35:09,179]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-07 11:35:12,715]
+INFO accounts: User piyush27 logged out at 07-11-2025 06:05:14 [2025-11-07 11:35:14,006]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-07 11:35:14,013]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-07 11:35:14,026]
+INFO accounts: User Prasanna logged in at 07-11-2025 06:05:25 [2025-11-07 11:35:25,146]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-07 11:35:25,155]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-07 11:35:25,172]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-07 11:35:25,209]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:35:29,563]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:35:29,563]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:35:29,838]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:35:29,839]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\Employee_Feedback_System\settings.py changed, reloading. [2025-11-07 11:37:45,279]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-07 11:37:46,574]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-07 11:37:57,890]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:38:00,969]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:38:00,971]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:38:01,217]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:38:01,218]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-07 11:40:46,108]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-07 11:40:49,942]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:40:53,602]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:40:53,604]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:40:54,804]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:40:54,805]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:42:24,842]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:42:24,843]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:42:25,059]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:42:25,061]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\Employee_Feedback_System\settings.py changed, reloading. [2025-11-07 11:42:41,557]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-07 11:42:42,897]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-07 11:42:46,149]
+INFO django.server: "GET / HTTP/1.1" 200 2135 [2025-11-07 11:42:47,621]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:42:54,677]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 5802 [2025-11-07 11:42:54,678]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:42:54,893]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 5802 [2025-11-07 11:42:54,894]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\Employee_Feedback_System\settings.py changed, reloading. [2025-11-07 11:43:04,021]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-07 11:43:05,352]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\Employee_Feedback_System\settings.py changed, reloading. [2025-11-07 11:43:16,253]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-07 11:43:17,531]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:44:24,806]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:44:24,807]
+WARNING django.request: Not Found: /dashboard/employee/1234 [2025-11-07 11:44:24,967]
+WARNING django.server: "GET /dashboard/employee/1234 HTTP/1.1" 404 179 [2025-11-07 11:44:24,970]
+WARNING django.request: Not Found: /dashboard/employee/124 [2025-11-07 12:01:07,048]
+WARNING django.server: "GET /dashboard/employee/124 HTTP/1.1" 404 179 [2025-11-07 12:01:07,049]
+WARNING django.request: Not Found: /dashboard/employee/ghklnkl [2025-11-07 12:02:56,188]
+WARNING django.server: "GET /dashboard/employee/ghklnkl HTTP/1.1" 404 179 [2025-11-07 12:02:56,189]
+WARNING django.request: Not Found: /dashboard/employee/1 [2025-11-07 12:03:11,086]
+WARNING django.server: "GET /dashboard/employee/1 HTTP/1.1" 404 179 [2025-11-07 12:03:11,087]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-07 12:03:19,558]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3284 [2025-11-07 12:03:22,476]
+WARNING django.request: Not Found: /list/12 [2025-11-07 12:03:57,885]
+WARNING django.server: "GET /list/12 HTTP/1.1" 404 179 [2025-11-07 12:03:57,886]
+INFO accounts: User Prasanna logged out at 07-11-2025 06:34:26 [2025-11-07 12:04:26,910]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-07 12:04:26,919]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-07 12:04:26,927]
+WARNING accounts: Failed login attempts for username: adityaG [2025-11-07 12:04:35,755]
+INFO django.server: "POST / HTTP/1.1" 200 2019 [2025-11-07 12:04:35,757]
+ERROR django.server: "GET /edit-profile/ HTTP/1.1" 500 93207 [2025-11-08 20:25:55,563]
+INFO accounts: User Prasanna logged out at 08-11-2025 14:57:22 [2025-11-08 20:27:22,207]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-08 20:27:22,222]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-08 20:27:22,238]
+INFO django.server: "GET /admin/ HTTP/1.1" 302 0 [2025-11-08 20:27:26,574]
+INFO django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177 [2025-11-08 20:27:26,635]
+INFO accounts: User sarthak.rupnawar logged in at 08-11-2025 14:57:40 [2025-11-08 20:27:40,590]
+INFO django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 [2025-11-08 20:27:40,604]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-08 20:27:40,669]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-08 20:27:42,851]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:27:42,914]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-08 20:27:56,829]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:27:56,872]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59362 [2025-11-08 20:28:06,277]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:06,321]
+INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 17736 [2025-11-08 20:28:09,400]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:09,450]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-08 20:28:14,658]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:14,708]
+INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 17736 [2025-11-08 20:28:17,135]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:17,191]
+INFO django.server: "GET /admin/auth/user/5/change/ HTTP/1.1" 200 25158 [2025-11-08 20:28:22,102]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:22,165]
+INFO django.server: "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530 [2025-11-08 20:28:23,040]
+INFO django.server: "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845 [2025-11-08 20:28:23,041]
+INFO django.server: "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141 [2025-11-08 20:28:23,060]
+INFO django.server: "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319 [2025-11-08 20:28:23,063]
+INFO django.server: "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291 [2025-11-08 20:28:23,178]
+INFO django.server: "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086 [2025-11-08 20:28:23,179]
+INFO django.server: "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677 [2025-11-08 20:28:23,180]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-08 20:28:38,636]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:38,688]
+INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 17736 [2025-11-08 20:28:50,669]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:50,720]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-08 20:28:53,711]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:53,758]
+INFO django.server: "GET /admin/auth/user/ HTTP/1.1" 200 17736 [2025-11-08 20:28:59,652]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:28:59,704]
+INFO django.server: "GET /admin/auth/user/5/change/ HTTP/1.1" 200 25158 [2025-11-08 20:29:19,206]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:29:19,267]
+INFO django.server: "GET /admin/feedback/feedback/ HTTP/1.1" 200 20107 [2025-11-08 20:29:37,358]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:29:37,424]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 16895 [2025-11-08 20:29:49,268]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-08 20:29:49,321]
+INFO django.server: "GET /admin/feedback/feedback/ HTTP/1.1" 200 20107 [2025-11-08 20:29:57,837]
+INFO accounts: User sarthak.rupnawar logged out at 08-11-2025 15:00:00 [2025-11-08 20:30:00,692]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-08 20:30:00,706]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-08 20:30:00,718]
+INFO accounts: User piyush27 logged in at 08-11-2025 15:00:09 [2025-11-08 20:30:09,703]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-08 20:30:09,716]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-08 20:30:09,746]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-08 20:30:09,786]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3275 [2025-11-08 20:30:13,924]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2803 [2025-11-08 20:30:25,635]
+INFO accounts: User piyush27 logged out at 08-11-2025 15:00:57 [2025-11-08 20:30:57,842]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-08 20:30:57,856]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-08 20:30:57,873]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\models.py changed, reloading. [2025-11-08 20:33:53,523]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:33:54,977]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\models.py changed, reloading. [2025-11-08 20:33:57,391]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:33:58,769]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\models.py changed, reloading. [2025-11-08 20:35:48,586]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:35:49,990]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\forms.py changed, reloading. [2025-11-08 20:36:49,034]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:36:50,674]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\forms.py changed, reloading. [2025-11-08 20:37:12,326]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:37:14,431]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\forms.py changed, reloading. [2025-11-08 20:37:32,776]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:37:34,151]
+WARNING accounts: Failed login attempts for username: piyush27 [2025-11-08 20:39:23,747]
+INFO django.server: "POST / HTTP/1.1" 200 2020 [2025-11-08 20:39:23,792]
+INFO accounts: User piyush27 logged in at 08-11-2025 15:09:30 [2025-11-08 20:39:30,276]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-08 20:39:30,289]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-08 20:39:30,315]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-08 20:39:30,368]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:40:22,366]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-08 20:40:26,498]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-08 20:40:27,386]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-08 20:40:28,201]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2564 [2025-11-08 20:40:35,141]
+ERROR django.request: Internal Server Error: /edit-profile/ [2025-11-08 20:41:18,271]
+Traceback (most recent call last):
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Training\Employee_Feedback_System\accounts\views.py", line 106, in post
+    profile.modified_by = request.user.username
+    ^^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 291, in __set__
+    raise ValueError(
+    ...<7 lines>...
+    )
+ValueError: Cannot assign "'piyush27'": "UserProfile.modified_by" must be a "User" instance.
+ERROR django.server: "POST /edit-profile/ HTTP/1.1" 500 91133 [2025-11-08 20:41:18,286]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-08 20:42:15,104]
+INFO feedback: add_feedback executed for piyush27 [2025-11-08 20:42:18,244]
+INFO django.server: "GET /add/ HTTP/1.1" 200 2268 [2025-11-08 20:42:18,261]
+INFO feedback: Signal: Feedback created by piyush27 (ID: 17) [2025-11-08 20:42:48,145]
+INFO feedback: feedback submitted by piyush27 [2025-11-08 20:42:48,146]
+INFO feedback: add_feedback executed for piyush27 [2025-11-08 20:42:48,146]
+INFO django.server: "POST /add/ HTTP/1.1" 302 0 [2025-11-08 20:42:48,148]
+INFO django.server: "GET /list/ HTTP/1.1" 200 4108 [2025-11-08 20:42:48,192]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\views.py changed, reloading. [2025-11-08 20:44:27,368]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:44:30,015]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3858 [2025-11-08 20:45:29,949]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2643 [2025-11-08 20:45:36,098]
+INFO accounts: Profile updated by piyush27 [2025-11-08 20:45:40,352]
+INFO django.server: "POST /edit-profile/ HTTP/1.1" 302 0 [2025-11-08 20:45:40,354]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2199 [2025-11-08 20:45:40,388]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\views.py changed, reloading. [2025-11-08 20:49:22,495]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:49:24,010]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\views.py changed, reloading. [2025-11-08 20:49:34,025]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:49:35,483]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\urls.py changed, reloading. [2025-11-08 20:49:49,203]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:49:50,811]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\urls.py changed, reloading. [2025-11-08 20:49:52,160]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:49:53,630]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\urls.py changed, reloading. [2025-11-08 20:49:59,077]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:50:00,575]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\urls.py changed, reloading. [2025-11-08 20:50:05,107]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:50:06,157]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\urls.py changed, reloading. [2025-11-08 20:50:07,943]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:50:09,158]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\urls.py changed, reloading. [2025-11-08 20:50:13,094]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:50:14,187]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\urls.py changed, reloading. [2025-11-08 20:50:18,040]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:50:19,199]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\urls.py changed, reloading. [2025-11-08 20:50:22,042]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:50:23,082]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\views.py changed, reloading. [2025-11-08 20:51:36,111]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:51:37,483]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-08 20:58:30,667]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2326 [2025-11-08 20:58:34,573]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 2016 [2025-11-08 20:58:44,662]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2770 [2025-11-08 20:58:55,812]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2326 [2025-11-08 20:59:02,670]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2328 [2025-11-08 21:01:07,911]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2275 [2025-11-08 21:01:48,204]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2276 [2025-11-08 21:02:22,943]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-11-08 21:02:42,597]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1968 [2025-11-08 21:02:44,698]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2722 [2025-11-08 21:03:00,375]
+INFO accounts: Profile updated by piyush27 [2025-11-08 21:03:03,627]
+INFO django.server: "POST /edit-profile/ HTTP/1.1" 302 0 [2025-11-08 21:03:03,630]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1968 [2025-11-08 21:03:03,697]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2722 [2025-11-08 21:03:12,007]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-11-08 21:03:14,395]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3937 [2025-11-08 21:03:17,622]
+INFO feedback: add_feedback executed for piyush27 [2025-11-08 21:03:23,792]
+INFO django.server: "GET /add/ HTTP/1.1" 200 2347 [2025-11-08 21:03:23,811]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3937 [2025-11-08 21:03:28,545]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1968 [2025-11-08 21:03:31,592]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-11-08 21:03:34,827]
+INFO accounts: User piyush27 logged out at 08-11-2025 15:33:38 [2025-11-08 21:03:38,726]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-08 21:03:38,740]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-08 21:03:38,760]
+INFO accounts: User sarthak22 logged in at 08-11-2025 15:33:48 [2025-11-08 21:03:48,752]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-08 21:03:48,764]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-08 21:03:48,789]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 200 9056 [2025-11-08 21:03:48,845]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1954 [2025-11-08 21:03:55,615]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2643 [2025-11-08 21:03:58,787]
+WARNING accounts: Profile update failed for sarthak22 [2025-11-08 21:04:22,500]
+INFO django.server: "POST /edit-profile/ HTTP/1.1" 200 2786 [2025-11-08 21:04:22,508]
+WARNING accounts: Profile update failed for sarthak22 [2025-11-08 21:04:25,664]
+INFO django.server: "POST /edit-profile/ HTTP/1.1" 200 2786 [2025-11-08 21:04:25,669]
+INFO accounts: Profile updated by sarthak22 [2025-11-08 21:04:35,590]
+INFO django.server: "POST /edit-profile/ HTTP/1.1" 302 0 [2025-11-08 21:04:35,593]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1978 [2025-11-08 21:04:35,624]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2279 [2025-11-08 21:04:43,265]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1978 [2025-11-08 21:04:47,442]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2279 [2025-11-08 21:04:51,320]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2279 [2025-11-08 21:08:52,355]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1978 [2025-11-08 21:08:54,724]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2734 [2025-11-08 21:08:56,488]
+WARNING accounts: Profile update failed for sarthak22 [2025-11-08 21:09:00,736]
+INFO django.server: "POST /edit-profile/ HTTP/1.1" 200 3126 [2025-11-08 21:09:00,743]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2279 [2025-11-08 21:09:10,683]
+INFO accounts: User sarthak22 logged out at 08-11-2025 15:39:13 [2025-11-08 21:09:13,509]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-08 21:09:13,533]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-08 21:09:13,571]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:04:34,267]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:04:40,422]
+WARNING django.request: Not Found: /favicon.ico [2025-11-09 12:04:41,090]
+WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 20 [2025-11-09 12:04:41,093]
+INFO django.server: "GET /register/ HTTP/1.1" 200 2543 [2025-11-09 12:04:47,014]
+INFO accounts: User registered AnonymousUser [2025-11-09 12:05:33,552]
+INFO accounts: User Rohit45 logged in at 09-11-2025 06:35:33 [2025-11-09 12:05:33,574]
+INFO django.server: "POST /register/ HTTP/1.1" 302 0 [2025-11-09 12:05:33,594]
+INFO django.server: "GET / HTTP/1.1" 200 2483 [2025-11-09 12:05:33,637]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1944 [2025-11-09 12:05:40,551]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:05:51,758]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:05:51,856]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1944 [2025-11-09 12:06:37,266]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2653 [2025-11-09 12:06:39,876]
+INFO accounts: Profile updated by Rohit45 [2025-11-09 12:07:33,212]
+INFO django.server: "POST /edit-profile/ HTTP/1.1" 302 0 [2025-11-09 12:07:33,214]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1974 [2025-11-09 12:07:33,242]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:07:35,665]
+WARNING django.request: Not Found: /dashboard/employee/123 [2025-11-09 12:07:56,537]
+WARNING django.server: "GET /dashboard/employee/123 HTTP/1.1" 404 20 [2025-11-09 12:07:56,539]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 302 0 [2025-11-09 12:08:25,332]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:08:25,372]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 302 0 [2025-11-09 12:08:34,802]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:08:34,837]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1974 [2025-11-09 12:08:40,509]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1974 [2025-11-09 12:08:43,541]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:08:44,771]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:08:44,805]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1974 [2025-11-09 12:08:48,184]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:08:49,559]
+INFO django.server: "GET /list/ HTTP/1.1" 200 1655 [2025-11-09 12:08:51,488]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:08:55,476]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:08:55,510]
+INFO accounts: User Rohit45 logged out at 09-11-2025 06:38:57 [2025-11-09 12:08:57,847]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-09 12:08:57,858]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:08:57,870]
+INFO accounts: User sarthak22 logged in at 09-11-2025 06:39:08 [2025-11-09 12:09:08,420]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-09 12:09:08,433]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:09:08,464]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 200 9186 [2025-11-09 12:09:08,574]
+INFO django.server: "GET /dashboard/admin/?employee=Prasanna HTTP/1.1" 200 5371 [2025-11-09 12:09:14,075]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1978 [2025-11-09 12:09:20,004]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:09:24,620]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 200 9186 [2025-11-09 12:09:24,665]
+INFO accounts: User sarthak22 logged out at 09-11-2025 06:39:29 [2025-11-09 12:09:29,869]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-09 12:09:29,882]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:09:29,896]
+INFO accounts: User sarthak.rupnawar logged in at 09-11-2025 06:39:42 [2025-11-09 12:09:42,086]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-09 12:09:42,101]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:09:42,133]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-09 12:09:42,224]
+INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 304 0 [2025-11-09 12:09:42,272]
+INFO django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0 [2025-11-09 12:09:42,283]
+INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 304 0 [2025-11-09 12:09:42,295]
+INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0 [2025-11-09 12:09:42,299]
+INFO django.server: "GET /static/admin/js/theme.js HTTP/1.1" 304 0 [2025-11-09 12:09:42,304]
+INFO django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0 [2025-11-09 12:09:42,305]
+INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0 [2025-11-09 12:09:42,322]
+INFO django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0 [2025-11-09 12:09:42,334]
+INFO django.server: "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0 [2025-11-09 12:09:42,336]
+INFO django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0 [2025-11-09 12:09:42,336]
+INFO django.server: "GET /admin/accounts/userprofile/ HTTP/1.1" 200 17500 [2025-11-09 12:09:46,605]
+INFO django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0 [2025-11-09 12:09:46,657]
+INFO django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,668]
+INFO django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,670]
+INFO django.server: "GET /static/admin/js/core.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,670]
+INFO django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,675]
+INFO django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,681]
+INFO django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,682]
+INFO django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,683]
+INFO django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,686]
+INFO django.server: "GET /static/admin/img/search.svg HTTP/1.1" 304 0 [2025-11-09 12:09:46,709]
+INFO django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0 [2025-11-09 12:09:46,709]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-09 12:09:46,710]
+INFO django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0 [2025-11-09 12:09:46,728]
+INFO django.server: "GET /static/admin/js/filters.js HTTP/1.1" 304 0 [2025-11-09 12:09:46,736]
+INFO django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0 [2025-11-09 12:09:46,784]
+INFO django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0 [2025-11-09 12:09:46,795]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59314 [2025-11-09 12:10:03,002]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-09 12:10:03,087]
+INFO django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0 [2025-11-09 12:10:03,123]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:15:11,872]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:15:13,672]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:15:28,961]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:15:30,654]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:15:32,093]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:15:33,494]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:15:35,965]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:15:37,221]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:15:44,801]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:15:46,073]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:15:48,621]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:15:49,679]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:15:54,181]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:15:55,170]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:16:00,714]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:16:02,157]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:16:03,608]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:16:04,783]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:16:17,427]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:16:19,115]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:16:21,561]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:16:23,127]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:16:30,181]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:16:31,972]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:16:37,044]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:16:38,134]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:16:53,379]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:16:54,983]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59314 [2025-11-09 12:17:00,430]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-09 12:17:00,503]
+INFO accounts: User sarthak.rupnawar logged out at 09-11-2025 06:47:09 [2025-11-09 12:17:09,070]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-09 12:17:09,082]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:17:09,104]
+TypeError: Activity() got unexpected keyword arguments: 'action'
+ERROR django.server: "POST / HTTP/1.1" 500 205172 [2025-11-09 12:17:20,779]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:17:36,884]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:17:38,709]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:17:40,603]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:17:42,033]
+WARNING django.security.csrf: Forbidden (CSRF token from POST incorrect.): / [2025-11-09 12:17:45,369]
+WARNING django.server: "POST / HTTP/1.1" 403 2503 [2025-11-09 12:17:45,372]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:17:47,512]
+INFO accounts: User Rohit45 logged in at 09-11-2025 06:47:55 [2025-11-09 12:17:55,881]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-09 12:17:55,895]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:17:55,920]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:17:55,962]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1974 [2025-11-09 12:18:00,446]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2740 [2025-11-09 12:18:02,667]
+INFO accounts: Profile updated by Rohit45 [2025-11-09 12:18:09,223]
+INFO django.server: "POST /edit-profile/ HTTP/1.1" 302 0 [2025-11-09 12:18:09,224]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1974 [2025-11-09 12:18:09,252]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2277 [2025-11-09 12:18:12,847]
+INFO accounts: User Rohit45 logged out at 09-11-2025 06:48:19 [2025-11-09 12:18:19,094]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-09 12:18:19,109]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:18:19,120]
+INFO accounts: User sarthak.rupnawar logged in at 09-11-2025 06:48:30 [2025-11-09 12:18:30,957]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-09 12:18:30,971]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:18:31,000]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-09 12:18:31,148]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59388 [2025-11-09 12:18:33,934]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-09 12:18:33,998]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\views.py changed, reloading. [2025-11-09 12:19:43,170]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:19:44,925]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\views.py changed, reloading. [2025-11-09 12:20:02,279]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:20:04,164]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-09 12:24:28,385]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:24:29,944]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\activity_log\middlewares.py changed, reloading. [2025-11-09 12:25:00,695]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:25:02,094]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\Employee_Feedback_System\settings.py changed, reloading. [2025-11-09 12:25:21,411]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:25:22,937]
+INFO accounts: User sarthak.rupnawar logged out at 09-11-2025 06:55:31 [2025-11-09 12:25:31,364]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-09 12:25:31,378]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:25:31,411]
+INFO accounts: User sarthak.rupnawar logged in at 09-11-2025 06:55:42 [2025-11-09 12:25:42,735]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-09 12:25:42,746]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:25:42,775]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-09 12:25:42,896]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59433 [2025-11-09 12:26:00,258]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-09 12:26:00,325]
+INFO accounts: User sarthak.rupnawar logged out at 09-11-2025 06:56:17 [2025-11-09 12:26:17,813]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-09 12:26:17,828]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:26:17,844]
+WARNING accounts: Failed login attempts for username: sarthak22 [2025-11-09 12:26:35,495]
+INFO django.server: "POST / HTTP/1.1" 200 2021 [2025-11-09 12:26:35,499]
+INFO accounts: User sarthak22 logged in at 09-11-2025 06:56:41 [2025-11-09 12:26:41,636]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-09 12:26:41,644]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:26:41,669]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 200 9186 [2025-11-09 12:26:41,709]
+INFO accounts: User sarthak22 logged out at 09-11-2025 06:56:44 [2025-11-09 12:26:44,982]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-09 12:26:45,005]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:26:45,033]
+INFO accounts: User sarthak.rupnawar logged in at 09-11-2025 06:56:54 [2025-11-09 12:26:54,980]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-09 12:26:54,988]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:26:55,017]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-09 12:26:55,052]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59492 [2025-11-09 12:26:57,295]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-09 12:26:57,346]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:36:43,911]
+INFO accounts: User sarthak.rupnawar logged out at 09-11-2025 07:06:49 [2025-11-09 12:36:49,720]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-09 12:36:49,729]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:36:49,762]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:36:52,548]
+INFO accounts: User sarthak.rupnawar logged in at 09-11-2025 07:07:02 [2025-11-09 12:37:02,264]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-09 12:37:02,272]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-09 12:37:02,298]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-09 12:37:02,424]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59543 [2025-11-09 12:37:04,796]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-09 12:37:04,856]
+INFO django.utils.autoreload: D:\Training\Employee_Feedback_System\accounts\signals.py changed, reloading. [2025-11-09 12:41:52,195]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-09 12:41:53,852]
+INFO accounts: User sarthak.rupnawar logged out at 09-11-2025 07:13:02 [2025-11-09 12:43:02,450]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-09 12:43:02,459]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-09 12:43:02,485]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-11 14:55:57,425]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-11 14:56:39,853]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-11 14:56:47,002]
+INFO django.server: "GET /static/accounts/css/style.css HTTP/1.1" 304 0 [2025-11-11 14:56:47,357]
+INFO accounts: User piyush27 logged in at 11-11-2025 09:28:28 [2025-11-11 14:58:28,658]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-11 14:58:28,669]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-11 14:58:28,699]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-11-11 14:58:28,739]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1968 [2025-11-11 14:58:33,546]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-11-11 14:58:36,505]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3937 [2025-11-11 14:58:39,171]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3937 [2025-11-11 14:58:44,981]
+INFO accounts: User piyush27 logged out at 11-11-2025 09:28:54 [2025-11-11 14:58:54,993]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-11 14:58:55,010]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-11 14:58:55,031]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-11-11 15:18:37,711]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-11 15:18:41,379]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-11 15:18:42,165]
+INFO accounts: User piyush27 logged in at 11-11-2025 10:12:54 [2025-11-11 15:42:54,304]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-11 15:42:54,315]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-11 15:42:54,343]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-11-11 15:42:54,383]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1968 [2025-11-11 15:43:18,652]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2732 [2025-11-11 15:43:25,263]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-11-11 15:43:29,354]
+INFO feedback: add_feedback executed for piyush27 [2025-11-11 15:43:32,239]
+INFO django.server: "GET /add/ HTTP/1.1" 200 2347 [2025-11-11 15:43:32,269]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3937 [2025-11-11 15:43:58,587]
+INFO django.server: "GET /edit-own/17/ HTTP/1.1" 200 2338 [2025-11-11 15:44:10,684]
+INFO django.server: "GET /list/ HTTP/1.1" 200 3937 [2025-11-11 15:44:14,345]
+INFO accounts: User piyush27 logged out at 11-11-2025 10:14:25 [2025-11-11 15:44:25,919]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-11 15:44:25,935]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-11 15:44:25,947]
+INFO accounts: User sarthak22 logged in at 11-11-2025 10:14:37 [2025-11-11 15:44:37,380]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-11 15:44:37,387]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-11 15:44:37,410]
+INFO django.server: "GET /dashboard/admin/ HTTP/1.1" 200 9186 [2025-11-11 15:44:37,443]
+INFO django.server: "GET /dashboard/admin/?employee=piyush27 HTTP/1.1" 200 5996 [2025-11-11 15:44:54,032]
+INFO django.server: "GET /profile/ HTTP/1.1" 200 1978 [2025-11-11 15:45:02,528]
+INFO django.server: "GET /edit-profile/ HTTP/1.1" 200 2734 [2025-11-11 15:45:07,357]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2279 [2025-11-11 15:45:09,534]
+INFO accounts: User sarthak22 logged out at 11-11-2025 10:15:18 [2025-11-11 15:45:18,476]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-11 15:45:18,484]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-11 15:45:18,493]
+INFO accounts: User sarthak.rupnawar logged in at 11-11-2025 10:18:00 [2025-11-11 15:48:00,111]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-11 15:48:00,117]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-11 15:48:00,145]
+INFO django.server: "GET /admin/ HTTP/1.1" 200 12690 [2025-11-11 15:48:00,228]
+INFO django.server: "GET /static/admin/css/base.css HTTP/1.1" 304 0 [2025-11-11 15:48:00,281]
+INFO django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0 [2025-11-11 15:48:00,281]
+INFO django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0 [2025-11-11 15:48:00,292]
+INFO django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0 [2025-11-11 15:48:00,292]
+INFO django.server: "GET /static/admin/js/theme.js HTTP/1.1" 304 0 [2025-11-11 15:48:00,293]
+INFO django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 304 0 [2025-11-11 15:48:00,293]
+INFO django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0 [2025-11-11 15:48:00,299]
+INFO django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0 [2025-11-11 15:48:00,308]
+INFO django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0 [2025-11-11 15:48:00,308]
+INFO django.server: "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392 [2025-11-11 15:48:00,675]
+INFO django.server: "GET /admin/activity_log/activity/ HTTP/1.1" 200 59554 [2025-11-11 15:48:06,066]
+INFO django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0 [2025-11-11 15:48:06,114]
+INFO django.server: "GET /static/admin/js/core.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,130]
+INFO django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,131]
+INFO django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,131]
+INFO django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,132]
+INFO django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,136]
+INFO django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,137]
+INFO django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,139]
+INFO django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,144]
+INFO django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458 [2025-11-11 15:48:06,154]
+INFO django.server: "GET /static/admin/js/filters.js HTTP/1.1" 304 0 [2025-11-11 15:48:06,159]
+INFO django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3342 [2025-11-11 15:48:06,169]
+INFO django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0 [2025-11-11 15:48:06,217]
+INFO django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097 [2025-11-11 15:48:06,223]
+INFO django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581 [2025-11-11 15:48:06,231]
+INFO accounts: User sarthak.rupnawar logged out at 11-11-2025 10:19:59 [2025-11-11 15:49:59,248]
+INFO django.server: "POST /admin/logout/ HTTP/1.1" 302 0 [2025-11-11 15:49:59,255]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-11 15:49:59,264]
+INFO accounts: User piyush27 logged in at 11-11-2025 10:20:14 [2025-11-11 15:50:14,048]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-11-11 15:50:14,055]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-11-11 15:50:14,080]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-11-11 15:50:14,101]
+INFO feedback: add_feedback executed for piyush27 [2025-11-11 15:50:37,450]
+INFO django.server: "GET /add/ HTTP/1.1" 200 2347 [2025-11-11 15:50:37,453]
+INFO accounts: User piyush27 logged out at 11-11-2025 10:26:23 [2025-11-11 15:56:23,597]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-11-11 15:56:23,602]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-11-11 15:56:23,609]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-12-03 19:26:22,009]
+INFO django.utils.autoreload: Watching for file changes with StatReloader [2025-12-03 19:27:14,160]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-12-03 19:27:16,683]
+INFO django.server: "GET /register/ HTTP/1.1" 200 2543 [2025-12-03 19:27:24,070]
+INFO accounts: User registered AnonymousUser [2025-12-03 19:27:52,308]
+INFO accounts: User Abhi logged in at 03-12-2025 13:57:52 [2025-12-03 19:27:52,331]
+INFO django.server: "POST /register/ HTTP/1.1" 302 0 [2025-12-03 19:27:52,343]
+INFO django.server: "GET / HTTP/1.1" 200 2483 [2025-12-03 19:27:52,375]
+INFO accounts: User Abhi logged out at 03-12-2025 13:58:08 [2025-12-03 19:28:08,017]
+INFO django.server: "POST /logout/ HTTP/1.1" 302 0 [2025-12-03 19:28:08,030]
+INFO django.server: "GET / HTTP/1.1" 200 1808 [2025-12-03 19:28:08,041]
+INFO accounts: User piyush27 logged in at 03-12-2025 13:58:25 [2025-12-03 19:28:25,802]
+INFO django.server: "POST / HTTP/1.1" 302 0 [2025-12-03 19:28:25,811]
+INFO django.server: "GET /dashboard_redirect/ HTTP/1.1" 302 0 [2025-12-03 19:28:25,842]
+INFO django.server: "GET /dashboard/employee/ HTTP/1.1" 200 2278 [2025-12-03 19:28:25,897]
+INFO feedback: add_feedback executed for piyush27 [2025-12-03 19:28:31,549]
+INFO django.server: "GET /add/ HTTP/1.1" 200 2347 [2025-12-03 19:28:31,575]
+ERROR django.request: Internal Server Error: /list/ [2025-12-03 19:28:50,407]
+Traceback (most recent call last):
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\connections.py", line 575, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\connections.py", line 826, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\connections.py", line 1203, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\connections.py", line 782, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1054, "Unknown column 'feedback_feedback.subject' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Training\Employee_Feedback_System\feedback\views.py", line 16, in feedback_list
+    return render(req, 'feedback/feedback_list.html', {'feedbacks':feedbacks})
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\template\defaulttags.py", line 199, in render
+    len_values = len(values)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+    ~~~~~~~~~~^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\connections.py", line 575, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\connections.py", line 826, in _read_query_result
+    result.read()
+    ~~~~~~~~~~~^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\connections.py", line 1203, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\connections.py", line 782, in _read_packet
+    packet.raise_for_error()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "D:\Training\Employee_Feedback_System\myenv\Lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (1054, "Unknown column 'feedback_feedback.subject' in 'field list'")
+ERROR django.server: "GET /list/ HTTP/1.1" 500 276308 [2025-12-03 19:28:50,452]

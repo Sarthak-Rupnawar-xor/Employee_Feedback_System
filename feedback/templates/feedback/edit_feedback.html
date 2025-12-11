@@ -1,0 +1,22 @@
+{% extends 'accounts/base.html' %}
+{% block title %}Edit Feedback{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="card p-4 shadow-sm border-0">
+      <h3 class="text-center text-warning mb-3">Edit Feedback</h3>
+
+      <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-warning w-100 mt-2">Update Feedback</button>
+      </form>
+
+      <div class="text-center mt-3">
+        <a href="{% url 'feedback_list' %}" class="text-decoration-none">Back to My Feedbacks</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

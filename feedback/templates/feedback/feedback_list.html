@@ -1,0 +1,36 @@
+{% extends 'accounts/base.html' %}
+{% block title %}My Feedback{% endblock %}
+{% block content %}
+<h2>My Feedback</h2>
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Subject</th>
+      <th>Message</th>
+      <th>Submitted at</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for fb in feedbacks %}
+    <tr>
+      <td>{{ fb.subject }}</td>
+      <td>{{ fb.message }}</td>
+      <td>{{ fb.submitted_at|date:"d M Y, H:i" }}</td>
+      <td>
+        <a href="{% url 'edit_feedback' fb.id %}" class="btn btn-sm btn-warning">Edit</a>
+        <form method="post" action="{% url 'delete_own_feedback' fb.id %}" style="display:inline;">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Delete this feedback?');">
+            Delete
+          </button>
+        </form>
+      </td>
+    </tr>
+    {% empty %}
+    <tr><td colspan="4" class="text-center">No feedbacks yet</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+<a href="{% url 'add_feedback' %}" class="btn btn-success">Add New Feedback</a>
+{% endblock %}
