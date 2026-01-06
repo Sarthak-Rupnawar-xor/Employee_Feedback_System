@@ -1,0 +1,117 @@
+/* Minimal clean reset */
+body {
+    background: #f7f9fc;
+}
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 6px;
+}
+
+/* Profile icon */
+.profile-icon {
+    font-size: 70px;
+    color: #0d6efd;
+}
+
+/* Smooth background */
+body {
+    background: #f5f8ff;
+}
+
+/* Card styling */
+.card {
+    border-radius: 14px;
+}
+
+/* Form inputs */
+.form-control {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 3px rgba(13,110,253,0.25);
+}
+
+/* Logo */
+img {
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+    border-radius: 14px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-6px);
+}
+
+.dashboard-icon {
+    font-size: 40px;
+    opacity: 0.9;
+}
+
+/* Admin Dashboard */
+.table-hover tbody tr:hover {
+    background-color: #eef4ff;
+}
+
+.badge {
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+/* Add Feedback Card */
+textarea.form-control {
+    border-radius: 10px;
+}
+
+/* Hover effect on table rows */
+.table-hover tbody tr:hover {
+    background-color: #eef5ff !important;
+}
+
+/* Badges */
+.badge {
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+textarea.form-control {
+    border-radius: 10px;
+}
+
+.form-select {
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.card strong {
+    color: #0d6efd;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+hr {
+    opacity: 0.2;
+}
+

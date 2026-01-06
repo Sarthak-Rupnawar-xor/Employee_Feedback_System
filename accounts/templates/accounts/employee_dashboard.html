@@ -1,0 +1,55 @@
+{% extends "accounts/base.html" %}
+{% block title %}Employee Dashboard{% endblock %}
+
+{% block content %}
+
+<!-- HEADER -->
+<div class="text-center mb-4">
+    <h2 class="fw-bold text-primary">Welcome, {{ request.user.username|title }} 👋</h2>
+    <p class="text-muted">Your feedback activity overview</p>
+</div>
+
+<!-- CARDS -->
+<div class="row g-4 justify-content-center">
+
+    <!-- Total Feedbacks -->
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3 text-center dashboard-card">
+            <i class="bi bi-chat-left-text dashboard-icon"></i>
+            <h3 class="fw-bold text-primary mt-2">{{ total_feedbacks }}</h3>
+            <p class="text-muted mb-0">Total Feedbacks</p>
+        </div>
+    </div>
+
+    <!-- Active Feedbacks -->
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3 text-center dashboard-card">
+            <i class="bi bi-check-circle dashboard-icon"></i>
+            <h3 class="fw-bold text-success mt-2">{{ active_feedbacks }}</h3>
+            <p class="text-muted mb-0">Active Feedbacks</p>
+        </div>
+    </div>
+
+    <!-- Deleted Feedbacks -->
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3 text-center dashboard-card">
+            <i class="bi bi-trash3 dashboard-icon"></i>
+            <h3 class="fw-bold text-danger mt-2">{{ deleted_feedbacks }}</h3>
+            <p class="text-muted mb-0">Deleted Feedbacks</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- ACTION BUTTONS -->
+<div class="text-center mt-5">
+    <a href="{% url 'add_feedback' %}" class="btn btn-primary btn-lg me-2">
+        <i class="bi bi-plus-circle"></i> Add Feedback
+    </a>
+
+    <a href="{% url 'feedback_list' %}" class="btn btn-outline-secondary btn-lg">
+        <i class="bi bi-list-ul"></i> View My Feedback
+    </a>
+</div>
+
+{% endblock %}
